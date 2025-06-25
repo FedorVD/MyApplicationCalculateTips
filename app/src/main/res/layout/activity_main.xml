@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сумма заказа"
+        android:textSize="32dp"/>
+
+    <EditText
+        android:id="@+id/sum_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:hint="Введите сумму заказа"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Чаевые, %"
+        android:textSize="32dp"/>
+
+    <EditText
+        android:id="@+id/tip_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32dp"
+        android:hint="Введите чаевые в %"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/calc_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Рассчитать"
+        android:textSize="32dp"/>
+
+    <TextView
+        android:id="@+id/result_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Здесь могла бы быть ваша реклама"
+        android:textSize="32dp"/>
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выход"
+        android:textSize="32dp"
+        />
+
+</LinearLayout>
